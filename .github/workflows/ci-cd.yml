@@ -180,3 +180,4 @@ jobs:
           echo "❌ Railway deployment health check failed. Last response (if any):"
           cat /tmp/health.json || echo "No response captured."
           exit 1
+          
