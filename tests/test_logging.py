@@ -32,4 +32,3 @@ def test_logging_setup_runs_without_error(app, caplog):
             logger = logging.getLogger("app")
             logger.info("logging smoke test")
         assert any("logging smoke test" in r.message for r in caplog.records)
-        

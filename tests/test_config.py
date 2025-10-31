@@ -102,4 +102,3 @@ class TestConfigSelector:
 
     def test_default_is_development(self):
         assert config["default"] == DevelopmentConfig
-        
